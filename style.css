@@ -8,7 +8,7 @@ h1 {
 .color-orange {
   color: orange;
 }
-section {
+.top-banner {
   display: flex;
 }
 .upper-one {
@@ -46,10 +46,34 @@ section {
   width: 100%;
   padding: 0px;
 }
-h1.text-1 {
-  margin-left: 30%;
-  margin-right: 30%;
+h1.receipe-header {
   text-align: center;
+}
+p.receipe-header-part {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 100px;
+}
+.receipe {
+  display: flex;
+  width: 84vw;
+}
+h2.title {
+  font-size: 40px;
+}
+.receipeone {
+  width: 33.33%;
+  margin-left: 10%;
+  margin-right: -2%;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 300px;
+  box-shadow: rgba(180, 59, 15, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+}
+.receipeone img {
+  width: 100%;
 }
 .footer {
   margin: auto;
@@ -57,6 +81,12 @@ h1.text-1 {
   background-color: black;
   color: rgb(155, 146, 146);
   padding: 20px;
+}
+.food {
+  color: orange;
+}
+h1.text-h1 {
+  text-align: center;
 }
 h1.block-text {
   margin-left: auto;
@@ -68,7 +98,4 @@ P.block-text {
   margin-right: auto;
   width: 30em;
   margin-bottom: 150px;
-}
-.food {
-  color: orange;
 }
