@@ -92,7 +92,7 @@ p button {
   font-size: 18px;
 }
 
-.card button:hover {
+p button:hover {
   opacity: 0.7;
 }
 .footer {
@@ -118,4 +118,8 @@ P.block-text {
   margin-right: auto;
   width: 30em;
   margin-bottom: 150px;
+}
+.copywright {
+  text-align: center;
+  color: orange;
 }
